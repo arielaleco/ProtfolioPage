@@ -15,7 +15,7 @@ body{
  
 
 } */
-#contains-all::after {
+/* #contains-all::after {
     content: "";
     display: block;
     position: absolute;
@@ -24,14 +24,17 @@ body{
     height: 100%;
     /* background-image: url("https://images.unsplash.com/photo-1492055995629-7253a5b5afaa?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=4d7a5e43e9ab5c73b094803e3359b7c7&auto=format&fit=crop&w=1488&q=80"); */
 
-    background-image: url("https://images.unsplash.com/photo-1507073814253-9e2d56819a2f?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=6b34d86890cde54f5aaedf4f80ef8b24&auto=format&fit=crop&w=1050&q=80");
+    /* background-image: url("https://images.unsplash.com/photo-1507073814253-9e2d56819a2f?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=6b34d86890cde54f5aaedf4f80ef8b24&auto=format&fit=crop&w=1050&q=80");
     background-size: cover;
-    /* opacity: 0.8; */
-    top: 0;
+     */
+
+    /* top: 0;
     left: 0;
     bottom: 0;
     right: 0;
-  }
+  } */
+ 
+
 /* #contains-all::after {
     content: "";
     background: url(image.jpg);
@@ -44,24 +47,31 @@ body{
     z-index: -1;   
   } */
 
-  #main{
+  #welcome-section{
       margin: auto;
       text-align: left;
-      padding-top:15%;
-padding-left:10%;
+      padding-top:10%;
+    padding-left:10%;
+    height: 800px;
+    /* background-image: url("https://images.unsplash.com/photo-1492055995629-7253a5b5afaa?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=4d7a5e43e9ab5c73b094803e3359b7c7&auto=format&fit=crop&w=1488&q=80"); */
+    background-image: url("https://images.unsplash.com/photo-1525098025442-91f6717b55bf?ixlib=rb-0.3.5&s=47da18269e20a9d42cdec8b6517ef0dc&auto=format&fit=crop&w=967&q=80");
+    background-repeat: no-repeat;
+    background-size: 100%;  
+    /* filter:grayscale(); */
+    
 
   }
 
   #my-name{
       color:white;
-      font-size: 40px;
+      font-size: 48px;
       font-weight: 100;
       margin-left: 0px;
       padding:0px;
   }
   #my-job1{
     color:white;
-    font-size: 50px;
+    font-size: 60px;
     font-weight: 700;
     margin: 0px;
     padding:0px;
@@ -70,13 +80,15 @@ padding-left:10%;
 
   #my-job2{
       font-weight: 200;
+      font-size: 30px;
   }
 .trans-box{
     opacity: 0.4;
     position: relative;
-    width:100%;
-    height: 100px;;
+    width:90%;
+    height: 10px;;
     background-color: white;
+    border-radius: 2px;    
 }
 
   #middle-panel{
@@ -85,13 +97,23 @@ padding-left:10%;
       /*   background-color: white;
        width: 80%; */
       margin: auto;
-     
-     
+      color: black;
+      background-color: rgba(255, 255, 255, 0.747);   
+      border-radius: 2px;    
   }
+  #about-me{
+    margin-top: 30px;
+  display: inline-block;
+  font-size: 1.2em;
+  line-height: 0.5em;
+  font-weight: 400;
+  padding: 10px;
+  
+}
 
   #my-image{
       border-radius: 200px;
-      width: 200px;
+      width: 180px;
       padding:20px;
       margin-right: 10px;
       display: inline;
@@ -101,8 +123,23 @@ padding-left:10%;
   footer{
       position: absolute;
       bottom: 0px;
+      right: 0px;
   }
 
-  #about-me{
+  
+
+  .container{
+      background-color: rgb(255, 255, 255);
+  }
+  #projects>h1{
+    transform: rotate(-90deg);
+    /* transform-origin: left bottom 0; */
+    transform-origin: 20% 40%;
     display: inline-block;
+    background-color: pink;
+    padding: 20px;
+    cursor: vertical-text;
+    text-transform:uppercase;
+    
+    /* float: left; */
   }
