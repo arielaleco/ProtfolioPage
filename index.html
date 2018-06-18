@@ -17,7 +17,10 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz" rel="stylesheet">
 
-    <meta http-equiv="refresh" content="5">
+    <!-- <meta http-equiv="refresh" content="5"> -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+
+
     <script src="script.js"></script>
     <link rel="stylesheet" href="style.css">
     <title>Document</title>
@@ -42,22 +45,22 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item active">
-                        <a id="about-btn" class="nav-link text-uppercase" href="#">About</a>
+                        <a id="about-btn" class="nav-link text-uppercase another-color" href="#">About</a>
                     </li>
                     <li class="nav-item">
-                            <a id="projects-btn" class="nav-link text-uppercase" href="#">Projects</a>
-                        </li>
+                        <a id="projects-btn" class="nav-link text-uppercase another-color" href="#">Projects</a>
+                    </li>
                     <li class="nav-item">
-                        <a id="contact-btn" class="nav-link text-uppercase" href="#">Contact</a>
+                        <a id="contact-btn" class="nav-link text-uppercase another-color" href="#">Contact</a>
                     </li>
 
                 </ul>
-                <form class="form-inline my-2 my-lg-0">
+                <!-- <form class="form-inline my-2 my-lg-0">
 
                     <button class="btn btn-default my-2 my-sm-0" data-toggle="modal" data-target="#signupModal">Email me
                         <i class="fas fa-user-plus"></i>
                     </button>
-                </form>
+                </form> -->
             </div>
         </nav>
         <div id="welcome-section">
@@ -65,6 +68,9 @@
             <h3 id="my-job1">Product Manage</h3>
             <h3 id="my-job2">Front End Developer &amp; UX Designer</h3>
 
+            <div id="special-overlay">
+
+            </div>
             <div class="trans-box">
                 <p></p>
             </div>
@@ -82,10 +88,12 @@
                 </div>
 
             </div>
-
+            <welcome-section-footer>
+                    ** Photo by Alex St on Unsplash **
+                </welcome-section-footer>
 
         </div>
-
+       
 
         <!-- ========================    projects   ================================  -->
         <div class="container">
@@ -105,9 +113,9 @@
                         <img class="card-img-top" src="https://d26uhratvi024l.cloudfront.net/gsc/IFD7YE/55/2a/e2/552ae2baedab43bd9f2ef2598b5c3eb2/images/work_on_prep_with_hover/u3.jpg?token=5847eb625312d9f5ed1694433fc83cef"
                             alt="Card image" style="width:100%">
                         <div class="card-img-overlay">
-                            <h4 class="card-title project-tile">Track yourself</h4>
-                            <p class="card-text">An axure project that I made in the UX course</p>
-                            <a href="https://ifd7ye.axshare.com/#p=work_on_prep_with_hover&hi=1" target="_blank" class="btn btn-primary">See Profile</a>
+                            <h4 class="card-title project-tile">Designed Form</h4>
+                            <p class="card-text">Small html form I've created </p>
+                            <a href="https://arielaleco.github.io/Designed-Form/" target="_blank" class="btn btn-primary">See Profile</a>
                         </div>
                     </div>
                     <div class="card img-fluid" style="width:300px">
@@ -127,10 +135,26 @@
             </div>
 
         </div>
-        <footer>
-                ** Photo by Alex St on Unsplash (vey very pink )
-                 Photo by Jay on Unsplash ( pink ) Photo by HISANARI KUNIMOTO on Unsplash (purple)
-        </footer>
+<footer>
+   <p>@2018 Ariela Leiba Cohen</p>
+<div id="connect-with-me">
+   <p>Connect with me</p>
+   
+   <a href="https://www.facebook.com/ariela.l.cohen" target="_blank">
+    <i class="fab fa-facebook-square"></i>
+</a>
+<a href="http://www.linkedin.com/in/ariela-leiba-cohen" target="_blank">
+    <i class="fab fa-linkedin"></i>
+   </a>
+   <a href="mailto:arielaleco@gmail.com">
+        <i class="fas fa-envelope-square"></i>
+   </a>
+
+
+</div>
+</footer>
+
+
     </div>
 </body>
 
