@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz" rel="stylesheet">
+
+    <!-- <meta http-equiv="refresh" content="5"> -->
+
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="contains-all">
+
+        <div class="container1">
+            <nav id="navbar" class="navbar navbar-expand-lg bg-light ">
+
+                <img class="navbar-brand" src="https://secure.gravatar.com/avatar/cdf5ad0baf2be3ff66da555fda590218?s=50&d=mm&r=g" alt="logo"
+                    style="margin-left: 0px;">
+
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                            <a id="about-btn" class="nav-link text-uppercase" href="#">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a id="contact-btn" class="nav-link text-uppercase" href="#">Contact</a>
+                        </li>
+
+                    </ul>
+                    <form class="form-inline my-2 my-lg-0">
+
+                        <button class="btn btn-default my-2 my-sm-0" data-toggle="modal" data-target="#signupModal">Email me
+                            <i class="fas fa-user-plus"></i>
+                        </button>
+                    </form>
+                </div>
+            </nav>
+            <div id="main">
+                <h1 id="my-name">Ariela Leiba Cohen</h1>
+                <h3 id="my-job1">Product Manage</h3>
+                <h3 id="my-job2">Front End Developer &amp; UX Designer</h3>
+
+                <div class="trans-box">
+                    <p>test this</p>
+                </div>
+
+
+
+                <div id="middle-panel">
+                    <img id="my-image" src="data:image/jpeg;base64,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">
+                    <div id="about-me">
+                        <p>Product Manager, highly experienced in leading R&amp;D products and projects</p>
+                        <p>Strong technical background with hands-on experience in software development</p>
+                        <p>Creative with excellent interpersonal relations</p>
+                        <p>Rapid learner with strong analytical and problem-solving skills</p>
+
+                    </div>
+
+                </div>
+
+
+            </div>
+        </div>
+
+        <div id="projects">
+<div class="project-tile">
+    <card>
+<a href="https://ifd7ye.axshare.com" target="_blank"></a>
+
+    </card>
+</div>
+<div class="project-tile">
+    
+    </div>
+
+        </div>
+
+
+        <footer>
+            Photo by Jay on Unsplash ( pink )
+            Photo by HISANARI KUNIMOTO on Unsplash (purple)
+        </footer>
+    </div>
+</body>
+
+</html>
