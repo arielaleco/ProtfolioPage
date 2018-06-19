@@ -114,6 +114,7 @@ body{
 
   .container{
       background-color: rgb(255, 255, 255);
+      padding-bottom:50px;
   }
   #projects{
       padding-bottom:20px;
@@ -135,7 +136,8 @@ body{
     cursor: vertical-text;
     text-transform:uppercase;
     
-    /* float: left; */
+    /* box-shadow: -5px 3px 3px 0px rgb(177, 173, 176); */
+    
   }
 
   .projects-list{
@@ -158,12 +160,38 @@ body{
       /* font-family:  The-Noun-Project-UI,sans-serif; */
   }
 
-  #connect-with-me{
+  #connect-me{
       display: inline-block;
   }
-  #connect-with-me a{
+  #connect-me a{
       color: white;
       font-size: 30px;
+      vertical-align: -20%;
+  }
+  .circle{
+    display:inline-block;
+    position:relative;
+    background-color:pink;
+    border-radius:500px;
+    height:100px;
+    width:100px;
+    margin:auto;
+    opacity:0.75;
+    top:-10px;
+    border: 1px solid rgb(189, 187, 187);
+    background-color:pink;
+    
+  }
+  
+  #connect-me > .circle:nth-of-type(1) {        
+    left:40px;
+  }
+  #connect-me > .circle:nth-of-type(2) {      
+    background-color:lightgray;
+    left:20px;
+  }
+  #test1{
+      background-color: red;
   }
   /* #connect-with-me i{
     height: 35px;
